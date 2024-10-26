@@ -1,0 +1,13 @@
+@keyframes income {
+from{
+  right: -100px;
+}
+to{
+  right: 20px;
+}
+}
+
+
+
+.menu{ animation: income 1s ease-in; -webkit-animation: income 1s ease-in;
+}

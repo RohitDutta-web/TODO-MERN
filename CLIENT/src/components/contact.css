@@ -1,0 +1,28 @@
+.side{
+
+  color: #2479f0;
+  background-color: white;
+  -web-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius: 3px;
+  font-size: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+ 
+}
+
+.content:hover  .side{
+
+
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+  
+  cursor: pointer;
+  border-radius: 0px;
+  font-size: 20px;
+  background-color: #F2F2F2;
+  font-weight: bold;
+  text-align: left;
+ 
+  border-radius: 5px;
+}
